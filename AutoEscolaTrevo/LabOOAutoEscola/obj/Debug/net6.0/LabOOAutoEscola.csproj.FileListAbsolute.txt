@@ -1,8 +1,0 @@
-C:\Users\delimal\Documents\IFF\Modulo 2 2022\LabOO\Projetos\AutoEscolaTrevo\LabOOAutoEscola\obj\Debug\net6.0\LabOOAutoEscola.csproj.AssemblyReference.cache
-C:\Users\delimal\Documents\IFF\Modulo 2 2022\LabOO\Projetos\AutoEscolaTrevo\LabOOAutoEscola\obj\Debug\net6.0\LabOOAutoEscola.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\delimal\Documents\IFF\Modulo 2 2022\LabOO\Projetos\AutoEscolaTrevo\LabOOAutoEscola\obj\Debug\net6.0\LabOOAutoEscola.AssemblyInfoInputs.cache
-C:\Users\delimal\Documents\IFF\Modulo 2 2022\LabOO\Projetos\AutoEscolaTrevo\LabOOAutoEscola\obj\Debug\net6.0\LabOOAutoEscola.AssemblyInfo.cs
-C:\Users\delimal\Documents\IFF\Modulo 2 2022\LabOO\Projetos\AutoEscolaTrevo\LabOOAutoEscola\obj\Debug\net6.0\LabOOAutoEscola.csproj.CoreCompileInputs.cache
-C:\Users\delimal\Documents\IFF\Modulo 2 2022\LabOO\Projetos\AutoEscolaTrevo\LabOOAutoEscola\obj\Debug\net6.0\LabOOAutoEscola.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\delimal\Documents\IFF\Modulo 2 2022\LabOO\Projetos\AutoEscolaTrevo\LabOOAutoEscola\obj\Debug\net6.0\LabOOAutoEscola.RazorAssemblyInfo.cache
-C:\Users\delimal\Documents\IFF\Modulo 2 2022\LabOO\Projetos\AutoEscolaTrevo\LabOOAutoEscola\obj\Debug\net6.0\LabOOAutoEscola.RazorAssemblyInfo.cs
