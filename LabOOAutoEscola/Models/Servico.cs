@@ -1,4 +1,6 @@
-﻿namespace LabOOAutoEscola.Models
+﻿using System;
+
+namespace LabOOAutoEscola.Models
 {
     public class Servico
     {
@@ -8,10 +10,13 @@
         int codigoServico;
         Double taxaServico;
 
-        private string _nomeServico { get; set; }
-        private double _valorServico { get; set; }
-        private double _valorMinimo { get; set; }
-        private int _codigoServico { get; set; }
-        private double _taxaServico { get; set; }
+        public Servico()
+        { 
+            private string _nomeServico { get; set; }
+            private double _valorServico { get; set; }
+            private double _valorMinimo { get; set; }
+            private int _codigoServico { get; set; }
+            private double _taxaServico { get; set; }
+        }
     }
 }

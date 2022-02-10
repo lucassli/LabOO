@@ -1,4 +1,6 @@
-﻿namespace LabOOAutoEscola.Models
+﻿using System;
+
+namespace LabOOAutoEscola.Models
 {
     public enum FormaPagamento
     {
