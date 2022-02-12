@@ -16,3 +16,4 @@ C:\Users\gabri\source\repos\AutoEscolaTrevoPOO\AutoEscolaTrevoPOO\obj\Debug\net6
 C:\Users\gabri\source\repos\AutoEscolaTrevoPOO\AutoEscolaTrevoPOO\obj\Debug\net6.0-windows\AutoEscolaTrevoPOO.genruntimeconfig.cache
 C:\Users\gabri\source\repos\AutoEscolaTrevoPOO\AutoEscolaTrevoPOO\obj\Debug\net6.0-windows\AutoEscolaTrevoPOO.frmPrincipalAutenticacao.resources
 C:\Users\gabri\source\repos\AutoEscolaTrevoPOO\AutoEscolaTrevoPOO\obj\Debug\net6.0-windows\AutoEscolaTrevoPOO.Properties.Resources.resources
+C:\Users\gabri\source\repos\AutoEscolaTrevoPOO\AutoEscolaTrevoPOO\obj\Debug\net6.0-windows\AutoEscolaTrevoPOO.frmCadastrarServicos.resources

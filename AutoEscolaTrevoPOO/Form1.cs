@@ -27,7 +27,9 @@ namespace AutoEscolaTrevoPOO
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
+            frmCadastrarServicos frmCadastrarServicos = new frmCadastrarServicos();
+            frmCadastrarServicos.ShowDialog();
+
         }
         
         private void RemoverBordaBotao()
