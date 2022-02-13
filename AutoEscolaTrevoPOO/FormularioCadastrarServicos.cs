@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace AutoEscolaTrevoPOO
 {
-    public partial class frmCadastrarServicos : Form
+    public partial class FormularioCadastrarServicos : Form
     {
-        public frmCadastrarServicos()
+        public FormularioCadastrarServicos()
         {
             InitializeComponent();
         }
 
         private void frmCadastrarServicos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

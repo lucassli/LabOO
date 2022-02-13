@@ -27,11 +27,17 @@ namespace AutoEscolaTrevoPOO
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            frmCadastrarServicos frmCadastrarServicos = new frmCadastrarServicos();
-            frmCadastrarServicos.ShowDialog();
+            ExibirNovoFormularioGeral();
 
         }
         
+        private FormularioGerenciamentoGeral ExibirNovoFormularioGeral()
+        {
+            FormularioGerenciamentoGeral frmGeral = new FormularioGerenciamentoGeral();
+            frmGeral.ShowDialog();
+            return frmGeral;
+        }
+
         private void RemoverBordaBotao()
         {
             btnEntrarSenha.FlatStyle = FlatStyle.Flat;
