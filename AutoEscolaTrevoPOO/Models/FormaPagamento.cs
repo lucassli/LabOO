@@ -10,6 +10,7 @@ namespace AutoEscolaTrevoPOO.Models
         CARTAO,
         AVISTA
     }
+
     public class FormaPagamento
     {
         FormaPagamento _carne = FormaPagamento.Carne;
