@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Threading;
 
@@ -6,13 +6,13 @@ namespace AutoEscolaTrevoPOO.Models
 {
     public class PagamentoaVista : Pagamento
     {
-        double valorPago;
-        double valorDesconto;
+        public double valorPago {get;}
+        public double valorDesconto {get;}
 
-        public PagamentoaVista()
+        public PagamentoaVista(double valorPago, double valorDesconto)
         {
-            private double _valorPago { get; set; }
-            private double _valorDesconto { get; set; }
+            this.valorPago = valorPago;
+            this.valorDesconto = valorDesconto;
         }
     }
 }
