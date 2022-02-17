@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Threading;
 
@@ -6,19 +6,19 @@ namespace AutoEscolaTrevoPOO.Models
 {
     public class Cliente
     {
-        string nomeCliente;
-        DateTime dataNascimento;
-        string numeroIdentididade;
-        string cpf;
-        bool status;
+        private bool status { get;}
+        private string cpf { get;}
+        private string numeroIdentidade { get;}
+        private string nomeCliente { get;}
+        private string dataNascimento { get;}
 
-        public Cliente()
+        public Cliente(bool status, string cpf, string numeroIdentidade, string nomeCliente, string dataNascimento)
         {
-            private bool _status { get; set; }
-            private string _cpf { get; set; }
-            private string _numeroIdentidade { get; set; }
-            private string _nomeCliente { get; set; }
-            private string _dataNascimento { get; set; }
+            this.status = status;
+            this.cpf = cpf;
+            this.numeroIdentidade = numeroIdentidade;
+            this.nomeCliente = nomeCliente;
+            this.dataNascimento = dataNascimento;
         }
     }
 }
