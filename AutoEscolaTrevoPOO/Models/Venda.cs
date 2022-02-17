@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Threading;
 
@@ -6,29 +6,29 @@ namespace AutoEscolaTrevoPOO.Models
 {
     public class Venda
     {
-        double valorVenda;
-        DateTime dataVenda;
-        int numeroParcelas;
-        double valorParcela;
-        double valorEntrada;
-        DateTime dataVencimento;
-        FormaPagamento formaPagamento;
-        Cliente cliente;
-        Pagamento pagamento;
+        public double valorVenda { get;}
+        public DateTime dataVencimento { get;}
+        public int numeroParcelas { get; }
+        public double valorParcela { get;}
+        public double valorEntrada { get;}
+        public DateTime dataVenda { get;}
+        public FormaPagamento formaPagamento { get;}
+        public ItemServico List<Itens> itens = new List<Itens>();
+        public Cliente cliente { get;}
+        public Pagamento pagamento { get;}
         
 
-        public Venda()
+        public Venda(double valorVenda, DateTime dataVencimento, int numeroParcelas, double valorParcela, double valorEntrada, DateTime dataVenda, FormaPagamento formaPagamento, ItemServico itens, Cliente cliente, Pagamento pagamento)
         {
-            private double _valorVenda { get; set; }
-            private DateTime _dataVencimento { get; set; }
-            private int _numeroParcelas { get; set; }
-            private double _valorParcela { get; set; }
-            private double _valorEntrada { get; set; }
-            private DateTime _dataVenda { get; set; }
-            private FormaPagamento _formaPagamento { get; set; }
-            private ItemServico List<Itens> itens = new List<Itens>();
-            private Cliente _cliente { get; set; }
-            private Pagamento _pagamento { get; set; }
+            this.formaPagamento = formaPagamento;
+            this.dataVencimento = dataVencimento;
+            this.valorParcela = valorParcela;
+            this.valorVenda = valorVenda;
+            this.valorEntrada = valorEntrada;
+            this.dataVenda = dataVenda;
+            this.List.Add(itens);
+            this.cliente = cliente;
+            this.pagamento = pagamento;
         }
     }
 }
