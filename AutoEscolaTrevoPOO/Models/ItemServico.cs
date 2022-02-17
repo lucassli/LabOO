@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Threading;
 
@@ -6,17 +6,17 @@ namespace AutoEscolaTrevoPOO.Models
 {
     public class ItemServico
     {
-        double valorItem;
-        string nomeItem;
-        double taxaServico;
-        int quantidade;
+        public double valorItem { get;}
+        public string nomeItem { get;}
+        public double taxaServico { get;}
+        public int quantidade { get;}
 
-        public ItemServico()
+        public ItemServico(double valorItem, string nomeItem, double taxaServico, int quantidade  )
         {
-            private double _valorItem { get; set; }
-            private string _nomeItem { get; set; }
-            private double _taxaServico { get; set; }
-            private int _quantidade { get; set; }
+            this.nomeItem = nomeItem;
+            this.valorItem = valorItem;
+            this.taxaServico = taxaServico;
+            this.quantidade = quantidade;
         }
     }
 }
