@@ -12,13 +12,13 @@ namespace AutoEscolaTrevoPOO.Models
         public int codigoServico {get;}
         public double taxaServico {get;}
 
-        public Servico()
+        public Servico(string nomeServico, double valorServico, double valorMinimo, int codigoServico, double taxaServico)
         {
-            this.nomeServico = _nomeServico;
-            this.valorServico = _valorServico;
-            this.valorMinimo = _valorMinimo;
-            this.codigoServico = _codigoServico;
-            this.taxaServico = _taxaserviço;
+            this.nomeServico = nomeServico;
+            this.valorServico = valorServico;
+            this.valorMinimo = valorMinimo;
+            this.codigoServico = codigoServico;
+            this.taxaServico = taxaServico;
         }
     }
 }
