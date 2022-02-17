@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Threading;
 
@@ -6,13 +6,13 @@ namespace AutoEscolaTrevoPOO.Models
 {
     public class Pagamento
     {
-        DateTime dataPagamento;
-        bool status;
+        public DateTime dataPagamento { get;}
+        public bool status { get;}
 
-        public Pagamento()
+        public Pagamento(DateTime dataPagamento, bool status)
         {
-            private DateTime _dataPagamento { get; set; }
-            private bool _status { get; set; }
+            this.dataPagamento = dataPagamento;
+            this.status = status;
         }
     }
 }
