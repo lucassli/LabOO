@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Globalization;
 using System.Threading;
+using System.Collections.Generic;
 
 namespace AutoEscolaTrevoPOO.Models
 {
     public class Servico
     {
+        List<ItemServico> itenservico = new List<>(ItemServico);
+        
         string nomeServico;
         double valorServico;
         double valorMinimo;
