@@ -7,7 +7,7 @@ namespace AutoEscolaTrevoPOO.Models
 {
     public class Servico
     {
-        List<ItemServico> itenservico = new List<>(ItemServico);
+        List<ItemServico> itenservico = new List<ItemServico>();
         
         string nomeServico;
         double valorServico;
