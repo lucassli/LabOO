@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Threading;
-
+using System.Collections.Generic;
 namespace AutoEscolaTrevoPOO.Models
 {
     public class Cliente
