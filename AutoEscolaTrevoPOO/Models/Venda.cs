@@ -6,6 +6,8 @@ namespace AutoEscolaTrevoPOO.Models
 {
     public class Venda
     {
+        List<Pagamentos> pagamentos = new List<Pagamentos>();
+        
         double valorVenda;
         DateTime dataVenda;
         int numeroParcelas;
