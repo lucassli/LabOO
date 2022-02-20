@@ -2,11 +2,12 @@
 using System.Globalization;
 using System.Threading;
 using System.Collections.Generic;
+
 namespace AutoEscolaTrevoPOO.Models
 {
     public class Cliente
     {
-        List<string> Venda =  new List<string>();
+        List<Venda> venda =  new List<Venda>();
         
         string nomeCliente;
         DateTime dataNascimento;
