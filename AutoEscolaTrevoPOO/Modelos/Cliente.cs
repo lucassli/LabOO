@@ -9,9 +9,9 @@ namespace AutoEscolaTrevoPOO.Models
         string nomeCliente;
         DateTime dataNascimento;
         string numeroIdentididade;
-        s g;dadetiendIocidepxEatadnirt
         string cpf;
         bool status;
+        string dataExpedicaoIdentidade;
 
         public Cliente()
         {
