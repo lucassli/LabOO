@@ -6,6 +6,8 @@ namespace AutoEscolaTrevoPOO.Models
 {
     public class Cliente
     {
+        List<string> Venda =  new List<string>();
+        
         string nomeCliente;
         DateTime dataNascimento;
         string numeroIdentididade;
