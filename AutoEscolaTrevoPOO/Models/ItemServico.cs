@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Globalization;
 using System.Threading;
+using System.Collections.Generic;
 
 namespace AutoEscolaTrevoPOO.Models
 {
     public class ItemServico
     {
+        private Servico servico = new Servico();
+        
         double valorItem;
         string nomeItem;
         double taxaServico;
